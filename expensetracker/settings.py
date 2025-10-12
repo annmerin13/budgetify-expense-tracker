@@ -43,6 +43,7 @@ DEBUG = False #CHANGE1
 ALLOWED_HOSTS = [
     '127.0.0.1',  # The IP address Django is running on
     'localhost', 
+    'budgetify-expense-tracker.onrender.com',
     'budgetify-expense-tracker.com',
     'www.budgetify-expense-tracker.com']#CHANGE2
 
@@ -102,6 +103,7 @@ WSGI_APPLICATION = 'expensetracker.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# postgresql://annmerinbudgeity:pC6PMt2IvBykEnLzSkyBWxAm3d18OAwi@dpg-d3lmp1pr0fns73e4h9s0-a.frankfurt-postgres.render.com/expensetracker_db_ozh1
 import dj_database_url # (assuming you installed this package)
 
 DATABASES = {
